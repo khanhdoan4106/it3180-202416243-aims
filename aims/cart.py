@@ -21,3 +21,14 @@ class Cart:
 
     def total_cost(self):
         return round(sum(d.cost for d in self.items), 2)
+
+    def print_cart(self):
+        if not self.items:
+            print("The cart is empty")
+            return
+        print("*********************** CART ***********************")
+        for i, dvd in enumerate(self.items, 1):
+            print(f"{i}. DVD - {dvd.title} - {dvd.category} - "
+                  f"{dvd.director} - {dvd.length}: {dvd.cost} $")
+        print(f"Total cost: {self.total_cost():.2f} $")
+        print("****************************************************")
