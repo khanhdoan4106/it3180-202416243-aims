@@ -20,7 +20,7 @@ class Cart:
         return False
 
     def total_cost(self):
-        return round(sum(d.cost for d in self.items), 2)
+        return round(sum(d.cost for d in self.items), 2) + 1
 
     def print_cart(self):
         if not self.items:
