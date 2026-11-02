@@ -14,6 +14,8 @@ Mọi thay đổi đáng chú ý của AIMS-mini được ghi lại trong tệp 
 
 \- Cart.sort\_by\_title(), Cart.sort\_by\_cost()
 
+\- search\_by\_category() tìm đĩa theo thể loại
+
 
 
 \## \[1.0.0] - 2026-10-29
