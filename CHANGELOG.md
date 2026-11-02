@@ -12,6 +12,14 @@ Mọi thay đổi đáng chú ý của AIMS-mini được ghi lại trong tệp 
 
 
 
+\## \[1.0.1] - 2026-11-02
+
+\### Fixed
+
+\- search\_by\_title không phân biệt hoa thường (#22)
+
+
+
 \## \[1.0.0] - 2026-10-29
 
 \### Added
